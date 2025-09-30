@@ -1,0 +1,3 @@
+name: testProject
+runtime: nodejs
+description: A simple test project with outputs
