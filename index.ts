@@ -7,3 +7,5 @@ const environment = config.get("environment") || "dev";
 // Export some simple outputs
 export const message = `Example output, stack name: ${environment}!`;
 export const timestamp = `Current time: ${new Date().toISOString()}`;
+export const iteration1 = "First test output added";
+export const iteration2 = "Second test output added";
