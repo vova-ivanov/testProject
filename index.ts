@@ -7,3 +7,8 @@ const environment = config.get("environment") || "dev";
 // Export some simple outputs
 export const message = `Example output, stack name: ${environment}!`;
 export const timestamp = `Current time: ${new Date().toISOString()}`;
+export const projectInfo = {
+    name: "testProject",
+    environment: environment,
+    version: "1.0.0"
+};
