@@ -10,8 +10,12 @@ const slowResource = new command.local.Command("slowResource", {
     create: "sleep 30 && echo 'Created 2'",
 });
 
+// const failResource = new command.local.Command("failResource", {
+//     create: "ls /abc/123/xyz",
+// });
+
 // Export some simple outputs
 export const message = `Example output, stack name: ${environment}!`;
 export const timestamp = `Current time: ${new Date().toISOString()}`;
-export const abc = "124";
+export const abc = "123";
 export const slowResourceOutput = slowResource.stdout;
