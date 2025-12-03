@@ -15,3 +15,4 @@ export const message = `Example output, stack name: ${environment}!`;
 export const timestamp = `Current time: ${new Date().toISOString()}`;
 export const abc = "124";
 export const slowResourceOutput = slowResource.stdout;
+export const thirdTestLine = "Third and final line for preview test";
