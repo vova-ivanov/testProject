@@ -10,8 +10,14 @@ const slowResource = new command.local.Command("slowResource", {
     create: "sleep 30 && echo 'Created 2'",
 });
 
+// New example resource for testing
+const exampleResource = new command.local.Command("exampleResource", {
+    create: "echo 'Hello from example resource'",
+});
+
 // Export some simple outputs
 export const message = `Example output, stack name: ${environment}!`;
 export const timestamp = `Current time: ${new Date().toISOString()}`;
 export const abc = "124";
 export const slowResourceOutput = slowResource.stdout;
+export const exampleResourceOutput = exampleResource.stdout;
