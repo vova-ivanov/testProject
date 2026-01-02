@@ -14,4 +14,5 @@ const slowResource = new command.local.Command("slowResource", {
 export const message = `Example output, stack name: ${environment}!`;
 export const timestamp = `Current time: ${new Date().toISOString()}`;
 export const abc = "124";
+export const newExampleLine = "This is a new example line added for testing";
 export const slowResourceOutput = slowResource.stdout;
