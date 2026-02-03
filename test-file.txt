@@ -1,0 +1,6 @@
+This is a basic test file for frontend UI testing.
+
+It contains some simple text content to verify how changes are displayed in the user interface.
+
+Created: 2026-02-01
+Purpose: Testing frontend change display
